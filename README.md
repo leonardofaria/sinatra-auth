@@ -4,6 +4,8 @@ This project offers a simple, ready-to-go Sinatra app to deploy in Heroku to pro
 
 Example: imagine you want to protect the content of a website created with Next.js, Hugo or your favourite static site generator. Github doesn't offer this feature or Netlify offers authentication only in their paid plans. Using the project you get authentication for free in the Heroku free tier plan.
 
+[DEMO](https://sinatra-auth-demo.herokuapp.com/)
+
 ## Using it
 
 This app is ready to use in Heroku.
