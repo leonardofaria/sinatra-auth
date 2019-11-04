@@ -8,6 +8,7 @@
   ],
   "env": {
     "RACK_ENV": "production",
+    "WEBSITE_NAME": "My Sinatra Auth App",
     "SIGNUP_ENABLED": "true",
     "DEFAULT_USER": "admin",
     "DEFAULT_PASS": "password",
