@@ -16,3 +16,7 @@ This app is ready to use in Heroku.
 2. Install dependencies: `bundle install`
 3. Create your `.env` file - check `.env-example`
 4. Run: `rake db:create db:seed && ruby app.rb`
+
+---
+
+Based on [blog-sinatra-warden](https://bitbucket.org/pabuisson/blog-sinatra-warden/src/master/)
