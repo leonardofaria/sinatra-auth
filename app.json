@@ -1,0 +1,19 @@
+{
+  "name": "sinatra-auth",
+  "description": "A simple Sinatra REST API",
+  "keywords": ["sinatra", "auth", "activerecord"],
+  "repository": "https://github.com/leonardofaria/sinatra-auth",
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "env": {
+    "RACK_ENV": "production",
+    "SIGNUP_ENABLED": "true",
+    "DEFAULT_USER": "admin",
+    "DEFAULT_PASS": "password",
+    "SESSION_SECRET": "somerandomstringhere"
+  },
+  "scripts": {
+    "postdeploy": "bundle exec rake db:migrate db:seed"
+  }
+}

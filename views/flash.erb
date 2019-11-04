@@ -1,0 +1,7 @@
+<% [:error, :success].each do |name| %>
+  <% if flash.has?(name) %>
+    <div class="<%= flash_message_classes(name.to_s) %>">
+      <%= flash[name] %>
+    </div>
+  <% end %>
+<% end %>

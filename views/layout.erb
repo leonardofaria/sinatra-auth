@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title><%= ENV['WEBSITE_NAME'] %></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.1.2/tailwind.min.css">
+  </head>
+  <body class="bg-gray-200 font-sans text-gray-700">
+    <%= erb :header %>
+    <%= erb :flash %>
+
+    <%= yield %>
+  </body>
+</html>
