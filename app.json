@@ -1,7 +1,7 @@
 {
   "name": "sinatra-auth",
-  "description": "A simple Sinatra REST API",
-  "keywords": ["sinatra", "auth", "activerecord"],
+  "description": "Simple Sinatra app to hide a directory under authentication",
+  "keywords": ["sinatra", "auth", "activerecord", "tailwindcss"],
   "repository": "https://github.com/leonardofaria/sinatra-auth",
   "addons": [
     "heroku-postgresql:hobby-dev"
